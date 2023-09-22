@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300;400;500;600;700;800;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  width: 100%;
+}
+.mixitup {
+  background: #2e2e2e;
+}
+.mixitup__container {
+  max-width: 1130px;
+  padding: 0 15px;
+  margin: 0 auto;
+  height: 100%;
+}
+.mixitup__filter {
+  padding: 50px 0;
+}
+.mixitup__filter-title {
+  color: #fff;
+  font-size: 40px;
+  text-align: center;
+}
+.mixitup__filter-list {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+.mixitup__filter-item {
+  list-style: none;
+  margin-right: 30px;
+  &:last-child {
+    margin-right: 0;
+  }
+}
+.mixitup__filter-button {
+  cursor: pointer;
+  padding: 15px 25px;
+  border-radius: 20px;
+  border: none;
+  font-weight: 600;
+  font-size: 18px;
+  background: #07cd2b;
+  transition: all .3s;
+  &:hover {
+    box-shadow: 2px 5px 1px #027016;
+  }
+  &:focus {
+    box-shadow: 2px 5px 1px #027016;
+  }
+}
+.mixitup__filter-goods {
+  display: grid;
+  grid-template-columns: repeat(4, 250px);
+  grid-template-rows: repeat(3, 350px);
+  justify-content: center;
+  gap: 30px;
+}
+.mixitup__filter-card {
+  list-style: none;
+  padding: 10px;
+  background: #1a1a1a;
+  border-radius: 20px;
+  & img {
+    border-radius: 20px;
+    width: 230px;
+    height: 230px;
+  }
+}
+.mixitup__filter-name {
+  font-size: 18px;
+  text-align: center;
+  color: #fff;
+  margin: 10px 0 20px;
+}
+.mixitup__filter-buy {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.mixitup__filter-prise {
+  font-family: sans-serif;
+  font-size: 23px;
+  color: #fff;
+}
+.mixitup__filter-btn {
+  text-decoration: none;
+  position: relative;
+  padding: 10px 30px;
+  background: #07cd2b;
+  color: #000;
+  font-weight: 700;
+  border-radius: 20px;
+  font-size: 16px;
+  transition: all .3s;
+  &:hover {
+    box-shadow: 2px 5px 1px #027016;
+  }
+}
